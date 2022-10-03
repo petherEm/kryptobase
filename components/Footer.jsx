@@ -22,7 +22,10 @@ const Footer = () => {
           <div className="flex-1 mx-auto lg:mx-0 mb-6 max-w-[285px]">
             <a href="#">
               {/* <Image src={Logo} width="200" height="200" objectFit="contain" /> */}
-              <h1 className="font-bold text-3xl text-[#52b5d5] italic"><span className="text-[#7cf518]">#</span>Krypto<span>Base</span></h1>
+              <h1 className="font-bold text-2xl text-[#d3eaf2] italic">
+                <span className="text-[#c918f5] text-5xl animate-pulse">.</span>
+                Krypto<span>Base</span>
+              </h1>
             </a>
           </div>
           <div className="flex flex-1 flex-col gap-16 lg:flex-row">
@@ -124,16 +127,16 @@ const Footer = () => {
 
           <div className="flex text-2xl gap-x-8">
             <a className="hover:text-blue transition" href="#">
-                <IoLogoYoutube />
+              <IoLogoYoutube />
             </a>
             <a className="hover:text-blue transition" href="#">
-                <IoLogoInstagram />
+              <IoLogoInstagram />
             </a>
             <a className="hover:text-blue transition" href="#">
-                <IoLogoTwitter />
+              <IoLogoTwitter />
             </a>
             <a className="hover:text-blue transition" href="#">
-                <IoLogoLinkedin />
+              <IoLogoLinkedin />
             </a>
           </div>
         </div>
