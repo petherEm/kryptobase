@@ -15,7 +15,7 @@ const Header = ({ setNavMobile }) => {
     >
       <div className="container mx-auto flex items-center justify-between">
         <a href="#">
-          <h1 className="font-bold text-3xl text-[#52b5d5] italic"><span className="text-[#7cf518]">#</span>Krypto<span>Base</span></h1>
+          <h1 className="font-bold text-2xl text-[#d3eaf2] italic"><span className="text-[#c918f5] text-5xl animate-pulse">.</span>Krypto<span>Base</span></h1>
           {/* <Image src="/img/logo.svg" height="100" width="200" /> */}
         </a>
         <div className="hidden lg:flex gap-x-[55px]">
